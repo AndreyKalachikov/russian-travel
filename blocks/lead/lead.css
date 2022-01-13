@@ -5,3 +5,27 @@
   color: #FFFFFF;
   padding: 48px 48px 92px;
 }
+
+@media (min-width:1280px) {
+  .lead {
+    padding: 56px 148px 92px;
+  }
+}
+
+@media (max-width:1024px) {
+  .lead {
+    padding: 48px 24px 90px;
+  }
+}
+
+@media (max-width:768px) {
+  .lead {
+    padding: 48px 0 88px;
+  }
+}
+
+@media (max-width:425px) {
+  .lead {
+    padding: 48px 0 64px;
+  }
+}

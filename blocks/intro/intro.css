@@ -1,5 +1,26 @@
 .intro {
-  padding: 0 286px 92px 48px;
+  padding-bottom: 92px;
+  padding-left: 48px;
   max-width: 690px;
   color: #FFFFFF;
+}
+
+@media (min-width:1280px) {
+  .intro {
+    padding-left: 148px;
+  }
+}
+
+@media (max-width:768px) {
+  .intro {
+    padding: 0 24px 88px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width:425px) {
+  .intro {
+    padding: 0 16px 64px;
+    max-width: 100%;
+  }
 }

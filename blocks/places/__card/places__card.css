@@ -1,0 +1,26 @@
+.places__card {
+  display: grid;
+  grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+  grid-template-rows: fit-content(152px) 1fr;
+  gap: 48px 32px;
+}
+
+@media (min-width:1280px) {
+  .places__card {
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+    gap: 48px 40px;
+  }
+}
+
+@media (max-width:768px) {
+  .places__card {
+    gap: 48px 28px;
+  }
+}
+
+@media (max-width:425px) {
+  .places__card {
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 32px;
+  }
+}
