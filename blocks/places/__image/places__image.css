@@ -3,3 +3,9 @@
   grid-row: 2/3;
   grid-column: 1;
 }
+
+@media (max-width:625px) {
+  .places__image {
+    grid-row: 3;
+  }
+}

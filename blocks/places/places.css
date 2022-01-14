@@ -11,9 +11,15 @@
   }
 }
 
+@media (max-width:990px) {
+  .places {
+    padding: 90px 36px 92px;
+}
+}
+
 @media (max-width:768px) {
   .places {
-    padding: 88px 0 92px;
+    padding: 88px 24px 92px;
 }
 }
 

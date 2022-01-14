@@ -1,3 +1,10 @@
 .places__website {
   align-self: end;
+  grid-template-rows: 2;
+}
+
+@media (max-width:425px) {
+  .places__website {
+    padding: 0 16px;
+  }
 }

@@ -1,9 +1,12 @@
 .cover {
   position: relative;
   min-height: 640px;
+  max-width: 1184px;
+  margin: 0 auto;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (min-width:1280px) {
@@ -26,6 +29,6 @@
 
 @media (max-width:425px) {
   .cover {
-    min-height: 320px;
+    min-height: 200px;
   }
 }
