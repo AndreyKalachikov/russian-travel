@@ -6,6 +6,7 @@
   color: #FFFFFF;
   text-decoration: none;
   padding-right: 18px;
+  transition: all .4s;
 }
 .footer__link:last-child {
   padding: 0;

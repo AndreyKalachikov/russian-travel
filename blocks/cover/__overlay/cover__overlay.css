@@ -10,6 +10,7 @@
   justify-content: center;
   color: #FFFFFF;
   text-decoration: none;
+  transition: all .8s;
 }
 
 .cover__overlay:hover {
