@@ -28,7 +28,6 @@
 @media (max-width:768px) {
   .places__card {
     grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
-    gap: 48px 28px;
     padding-bottom: 73px;
   }
 }

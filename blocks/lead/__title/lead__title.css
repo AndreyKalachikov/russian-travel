@@ -15,7 +15,7 @@
   }
 }
 
-@media (max-width:730px) {
+@media (max-width:740px) {
   .lead__title {
     max-width: 470px;
     font-size: 56px;
@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width:460px) {
+@media (max-width:485px) {
   .lead__title {
     max-width: 90vw;
     font-size: 40px;
